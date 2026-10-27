@@ -28,9 +28,11 @@ v3 同时把若干成熟领域原语重新包装成了自定义 workflow/data mo
 - provenance 采用 CASE/W3C PROV 思路；
 - 仓库指导采用 AGENTS.md + canonical Playbook + thin Skill adapter。
 
-## 当前入口
+## 当时的入口与目前的规范
 
-`playbooks/windows-guest-experiment/PLAYBOOK.md`
+历史 v3 迁移期间曾使用 `playbooks/windows-guest-experiment/PLAYBOOK.md` 作为工作流入口。这是**当时的设计记录**，不再是当前执行规范。
+
+目前唯一的活动技能入口是 `.agents/skills/windows-guest-experiment/SKILL.md`（依仓库根 `AGENTS.md`）。旧 Playbook 和旧 `skills/` 目录仍供研究当时的设计取舍，不需要把它们与活动技能同步更新。
 
 相关调研：
 
