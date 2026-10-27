@@ -26,6 +26,9 @@
 
 EPT 子项目有自己的 README、`AGENTS.md`、目录规则、运行记录和证据边界。进入该子项目后，应以其项目规则为准，而不是把整个仓库的通用说明当成具体实验流程。
 
+### 通用 Agent Skills 的权威归属
+
+通用的 guidance-engineering、prompt-authoring、skill-packaging、software-engineering-workflow 已迁入独立的 [agent-skills](https://github.com/JuPo01213/agent-skills) 私有仓库。当前本仓库的 .agents/skills/ 只保留实际安全研究所依赖的 windows-guest-experiment 等项目专用入口。原有技能版本可以从历史提交恢复；不会在这里继续维护并行正式版本。
 ### Skills、Playbooks 与工作流
 
 `skills/` 保存可复用技能的设计、参考材料和历史演进；`.agents/` 保存当前 Agent 路由所使用的技能入口（如果某项任务声明了强制 Skill，应优先读取对应入口）。
